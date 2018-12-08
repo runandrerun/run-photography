@@ -8,6 +8,6 @@ export default function configureStore() {
     rootReducer,
     composeEnhancers(
         applyMiddleware(thunk)
-    );
+    )
   );
 };
