@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { connect } from 'react-redux';
-import NavBar from './components/NavBar'; 
+import NavBar from './components/NavBar';
 
 class App extends Component {
 
@@ -16,7 +16,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div>
-            <img src={logo} className="App-logo" alt="logo" />
+      { /* <img src={logo} className="App-logo" alt="logo" /> */ }
+            <NavBar />
           </div>
         </header>
         {/* <h3> { this.props.exampleMessage }</h3>
