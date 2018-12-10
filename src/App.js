@@ -16,12 +16,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div>
-      { /* <img src={logo} className="App-logo" alt="logo" /> */ }
             <NavBar />
           </div>
         </header>
-        {/* <h3> { this.props.exampleMessage }</h3>
-        <button onClick={this.handleClick}> Click me </button> */}
       </div>
     );
   };
