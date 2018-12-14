@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { connect } from 'react-redux';
 import NavBar from './components/NavBar';
+import MenuBar from './components/MenuBar';
 
 class App extends Component {
 
@@ -16,7 +17,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div>
-            <NavBar />
+            <MenuBar />
           </div>
         </header>
       </div>
