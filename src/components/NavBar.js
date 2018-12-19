@@ -10,7 +10,7 @@ export default class NavBar extends Component {
           <Grid.Row>
             <Grid.Column width={12}><Header as="h1" color="red"><a href="/" id="logo">{'RUNANDRE'}</a></Header></Grid.Column>
             <Grid.Column width={4}>
-            {'Portfolio'}
+              {'Portfolio'}
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
